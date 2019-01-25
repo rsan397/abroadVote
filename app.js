@@ -49,7 +49,7 @@ function formatBot(data){
 	let tableContent= "";
 	if(data.indexOf('.') !== -1){
   		// would be true. Period found in file name
-  		var multiMessages = data.split(".");
+  		var multiMessages = data.split(". ");
   		for (message in multiMessages) {
   			tableContent += "<tr class=" + "bot-message"+ "><td class=" + "received_withd_msg" + "><p>"+ multiMessages[message] + "</p></td></tr>\n";
   		};
