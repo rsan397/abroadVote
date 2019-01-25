@@ -1,0 +1,219 @@
+#stripe-box {
+	background-image: repeating-linear-gradient(
+		45deg,
+		#FF4900,
+		#FF4900 20px,
+		#FCFDFD 20px,
+		#FCFDFD 40px,
+		#0793FF 40px,
+		#0793FF 60px,
+		#FCFDFD 60px, 
+		#FCFDFD 80px
+	);
+	border-width: 10px;
+	border-radius: 0px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 100%;
+	height: 100%;
+	box-shadow: 10px 10px 5px grey;
+	position: relative;
+
+}
+
+#cardBody{
+}
+
+#address-box {
+	position: relative;
+	/*height: 560px;*/
+	background: #FCFDFD;
+	border-radius: 0px;
+	border-color: #FCFDFD;
+}
+
+#footer {
+	color: #4c4c4c;
+	text-align: center;
+	/*background: #E9F3F8;*/
+}
+
+#middle{
+	color:black;
+	/*height: 100vh;*/
+	background: #0793FF;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+p a {
+	color: #4c4c4c;
+}
+
+hr{
+	border-width: 3px;
+}
+
+#bottom {
+	background: #0077D3;
+	color: black;
+	/*height: 100vh;*/
+	text-align: center;
+	/*background: #E9F3F8;*/
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#topper{
+	color: #4c4c4c;
+	/*background: #E9F3F8;*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.navbar-brand {
+	color: #4c4c4c;
+}
+
+.nav-link{
+	color: #4c4c4c;
+}
+
+#background {
+	background-image: url("map.jpg");
+	background-size: cover;
+	/*background: #E9F3F8;*/
+	height: 100vh;
+	min-height: 800px;
+}
+
+/*chat box*/
+
+#messagingContainer { 
+	margin-top: 20px;
+	/*padding-left: 50px;
+	padding-right: 50px;*/
+	max-width: 100%;
+	/*height: 370px;*/
+	min-height: 350px;
+	max-height: 370px;
+	/*overflow: scroll;*/
+	position: relative;
+	/*border: 1px solid red;*/
+	width: 100%;
+
+}
+
+#chatbox {
+	overflow: none;
+	position: relative;
+	width: 100%
+}
+
+#scrollWindow{
+	height: 310px;
+	overflow: auto;
+	position: absolute;
+}
+
+#messageResponseTable {
+	/*border: 1px solid black;*/
+	width: 100%;
+	max-height: 310px;
+	/*position: relative;*/
+}
+
+/* bot messages*/
+
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 18px;
+  padding: 5px 10px 5px 12px;
+  max-width: 70%;
+  margin-top: 10px; 
+  margin-bottom: 5px;
+  float: left;
+}
+
+/* user message*/
+
+.sent_msg p {
+  background: #0793FF none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-top: 5px; 
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 5px 10px 5px 12px;
+  max-width: 70%;
+  text-align: right;
+  float: right;
+}
+
+/* submit box*/
+
+#bottomBox{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 18px;
+  min-height: 48px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+.type_msg {
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	/*position: absolute;
+	bottom: 0;*/
+	width: 100%;
+	align-content: center;
+}
+
+.msg_send_btn {
+  background: #0793FF none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 33px;
+  position: absolute;
+  padding-right: 5px;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+
+#row1{
+	background:  #0793FF;
+	padding-top: 40px;
+}
+
+#row2 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background:  #0077D3;
+}
+
+#head{
+	background:  #0793FF;
+}
+
+#contact{
+	margin-bottom: 40px;
+}
+
+h6 {
+	text-decoration: underline;
+}
