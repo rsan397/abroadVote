@@ -94,9 +94,9 @@ hr{
 	/*padding-left: 50px;
 	padding-right: 50px;*/
 	max-width: 100%;
-	/*height: 370px;*/
-	min-height: 350px;
-	max-height: 370px;
+	height: 370px;
+	/*min-height: 350px;
+	max-height: 370px;*/
 	/*overflow: scroll;*/
 	position: relative;
 	/*border: 1px solid red;*/
