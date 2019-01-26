@@ -44,6 +44,18 @@
 	padding-bottom: 40px;
 }
 
+#buttons {
+	background: #0793FF;
+
+}
+
+.btn{
+	margin-left: 20px;
+	margin-right: 20px;
+	/*background: white;
+	color: black;*/
+}
+
 p a {
 	color: #4c4c4c;
 }
