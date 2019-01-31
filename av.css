@@ -38,14 +38,14 @@
 #middle{
 	color:black;
 	/*height: 100vh;*/
-	background: #0793FF;
+	background: #D7EDFF;
 	position: relative;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 #buttons {
-	background: #0793FF;
+	background: #D7EDFF;
 
 }
 
@@ -65,7 +65,7 @@ hr{
 }
 
 #bottom {
-	background: #0077D3;
+	background: #A2D5FD;
 	color: black;
 	/*height: 100vh;*/
 	text-align: center;
@@ -76,7 +76,7 @@ hr{
 
 #topper{
 	color: #4c4c4c;
-	/*background: #E9F3F8;*/
+	/*background: #D7EDFF;*/
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -206,18 +206,18 @@ hr{
 }
 
 #row1{
-	background:  #0793FF;
+	background:  #D7EDFF;
 	padding-top: 40px;
 }
 
 #row2 {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background:  #0077D3;
+	background:  #A2D5FD;
 }
 
 #head{
-	background:  #0077D3;
+	background:  #D7EDFF;
 }
 
 #contact{
